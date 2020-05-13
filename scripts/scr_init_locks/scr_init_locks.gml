@@ -1,0 +1,14 @@
+global.width_degrade_lock=false
+global.height_degrade_lock=false
+global.trunk_hue_lock=false
+global.leaf_hue_lock=false
+global.leaf_density_lock=false
+global.branch_forks_lock=false
+global.branch_amount_lock=false
+global.branch_bend_amount_lock=false
+global.trunk_height_lock=false
+global.branch_length_lock=false
+global.leaf_lock=false
+global.leaf_rot_lock=false
+global.leaf_stick_lock=false
+global.regen_on_change=true//defaults to on
