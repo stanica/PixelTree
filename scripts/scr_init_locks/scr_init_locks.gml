@@ -8,6 +8,7 @@ global.branch_amount_lock=false
 global.branch_bend_amount_lock=false
 global.trunk_height_lock=false
 global.branch_length_lock=false
+global.trunk_width_lock=false
 global.leaf_lock=false
 global.leaf_rot_lock=false
 global.leaf_stick_lock=false

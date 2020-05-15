@@ -16,7 +16,8 @@
         "73c3cb13-b23d-46c5-a962-4627a21ddb2a",
         "7ddaa9ec-b1a5-442c-96c5-d8862f941ea5",
         "92940c2a-ec5d-4f23-9b1c-7fa4defc994a",
-        "d83d94d9-55c0-437f-9260-0884d94b4dff"
+        "d83d94d9-55c0-437f-9260-0884d94b4dff",
+        "27d5d838-d4eb-4d6f-9bb5-d2c34b444d6d"
     ],
     "filterType": "GMObject",
     "folderName": "locks",

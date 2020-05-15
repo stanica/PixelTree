@@ -14,10 +14,12 @@ if !surface_exists(surf){
 	for (var i=0; i<ds_list_size(tree); i++){
 		var _b=ds_list_find_value(tree,i)
 		
-		draw_set_color(make_color_hsv(color_get_hue(global.trunk_color),color_get_saturation(global.trunk_color),color_get_value(global.trunk_color)*0.8))
-		draw_line_width(_b[? b.x1],_b[? b.y1],_b[? b.x2],_b[? b.y2],_b[? b.width])
 		draw_set_color(make_color_hsv(color_get_hue(global.trunk_color),color_get_saturation(global.trunk_color),color_get_value(global.trunk_color)))
+		draw_line_width(_b[? b.x1],_b[? b.y1],_b[? b.x2],_b[? b.y2],_b[? b.width])
+		draw_set_color(make_color_hsv(color_get_hue(global.trunk_color),color_get_saturation(global.trunk_color),color_get_value(global.trunk_color)*0.4))
 		draw_line_width(_b[? b.x1]+_b[? b.width]/2,_b[? b.y1],_b[? b.x2]+_b[? b.width]/2,_b[? b.y2],_b[? b.width]/2)
+		draw_set_color(make_color_hsv(color_get_hue(global.trunk_color),color_get_saturation(global.trunk_color),color_get_value(global.trunk_color)*0.7))
+		draw_line_width(_b[? b.x1]+_b[? b.width]/4,_b[? b.y1],_b[? b.x2]+_b[? b.width]/4,_b[? b.y2],_b[? b.width]/2)
 	
 		scr_check_ranges(_b[? b.x1],_b[? b.y1])
 		scr_check_ranges(_b[? b.x2],_b[? b.y2])

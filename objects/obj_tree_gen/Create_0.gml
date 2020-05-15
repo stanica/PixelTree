@@ -1,10 +1,5 @@
 /// @description Tree Generator
-
-
-
-
 randomize()
-version="1.1.0"
 minX=x
 minY=y
 maxX=x

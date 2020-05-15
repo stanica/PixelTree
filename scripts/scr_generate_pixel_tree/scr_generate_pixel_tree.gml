@@ -4,7 +4,7 @@ surf=-1
 #region trunk
 var order=0
 var curve=80+random(20)
-var width=3+random(2)
+var width=global.trunk_width
 var length=random(4)+4//
 var x1=x
 var y1=y
